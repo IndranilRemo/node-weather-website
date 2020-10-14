@@ -7,7 +7,7 @@ var error =  document.querySelector('.error')
 
 weatherForm.addEventListener('submit', (e) => {
     e.preventDefault()
-    var url = 'http://localhost:3000/weather?address='+loc.value
+    var url = '/weather?address='+loc.value
     forcastLocation.textContent = 'Loading...'
     forecastDetails.textContent = ''
     error.textContent = ''

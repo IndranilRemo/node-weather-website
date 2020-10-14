@@ -1,6 +1,3 @@
-console.log('Client side javascript file loaded!')
-
-
 // http://puzzle.mead.io/puzzle
 var loc = document.querySelector('#location')
 var weatherForm = document.querySelector('form')

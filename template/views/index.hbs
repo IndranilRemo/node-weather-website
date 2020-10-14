@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>Weather Stats</title>
+        <link rel="icon" href="/img/weather.png">
+        <link rel="stylesheet" href="/css/style.css">
+        
+    </head>
+    <body>
+        <div class="main">
+            {{>header}}
+            <form>
+                <input id="location" placeholder="Location">
+                <button>Search</button>
+            </form>
+            <div class="weather">
+                <h4>Weather Forecast</h4>
+                <p class="error"></p>
+                <p class="forecastLocation"></p>
+                <p class="forecastDetails"></p>
+            </div>
+            <p>Created By {{name}}</p>
+        </div>
+        {{>footer}}
+        <script src="/js/app.js"></script>
+    </body>
+</html>
